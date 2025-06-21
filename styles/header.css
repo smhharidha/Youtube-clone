@@ -1,0 +1,143 @@
+.header{
+  height:80px;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  z-index:100;
+
+  background-color:white;
+  border-bottom-width:1px;
+  border-bottom-style:solid;
+  border-bottom-color:rgb(218, 218, 218);
+
+}
+.threeline-symbol{
+  height:24px;
+  margin-left:24px;
+  margin-right:24px;
+}
+.youtube-logo{
+  height:30px;
+}
+.search-bar{
+  flex:1;
+  height:35px;
+  padding-left:10px;
+  font-size:14px;
+  border-width:1px;
+  border-style:solid;
+  border-color:rgb(202, 202, 202);
+  border-radius:2px;
+  box-shadow:inset 1px 2px 3px rgba(0,0,0,0.05);
+  margin-top:20px;
+  width:0px;
+}
+.search-icon{
+  height:20px;
+  width:20px;
+  margin-top:10px;
+  
+}
+.button-box{
+  margin-top:18px;
+  border-radius:0px;
+  border-style:solid;
+  border-color:rgb(202,202,202);
+  width:80px;
+}
+.voice-box{
+  border-radius:20px;
+  border-color: rgb(155, 151, 151);
+  margin-right:0px;
+  margin-top:15px;
+}
+.voice-icon{
+  height:30px;
+  width:33px;
+  margin-right:15px;
+}
+.create-button{
+  height:22px;
+  width:22px;
+  margin-top:20px;
+}
+.dot-button{
+  height:18px;
+  width:18px;
+  margin-top:20px;
+  margin-left:23px;
+  margin-bottom:1px;
+}
+.bell-button{
+  height:20px;
+  width:20px;
+  margin-top:20px;
+  margin-left:15px;
+}
+.bell-button-container{
+  position:relative;
+}
+.bell-button-count{
+  position:absolute;
+  top:13px;
+  right:-5px;
+  background-color:rgb(179, 3, 3);
+  color:white;
+  font-size:11px;
+  font-family:Roboto,Arial;
+  padding-top:2px;
+  padding-bottom:2px;
+  padding-left:5px;
+  padding-right:5px;
+  border-radius:20px;
+  
+}
+.profile-button{
+  height:35px;
+  width:35px;
+  border-radius: 50px;
+  margin-left:15px;
+  margin-top:10px;
+}
+
+.left-section{
+  width:150px;
+  display:flex;
+  align-items:center;
+}
+
+.middle-section{
+  flex:1;
+  margin-left:70px;
+  margin-right:35px;
+  max-width:500px;
+  display:flex;
+}
+
+.right-section{
+  width:200px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+.video-time{
+  font-family: Roboto,Arial;
+  font-size:12px;
+  font-weight:500px;
+  padding-left:3px;
+  padding-right:3px;
+  padding-top:4px;
+  padding-bottom:4px;
+  background-color:black;
+  border-radius:5px;
+  color:white;
+  bottom:8px;
+  right:0;
+  position:absolute;
+  margin-right:5px;
+
+}
