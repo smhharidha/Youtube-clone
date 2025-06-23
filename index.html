@@ -10,6 +10,56 @@
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/video.css">
     <link rel="stylesheet" href="styles/sidebar.css">
+     <style>
+      @media (max-width: 768px) {
+        .header {
+          flex-direction: column;
+          align-items: center;
+          padding: 10px;
+        }
+
+        .middle-section {
+          flex-direction: column;
+          align-items: stretch;
+        }
+
+        .search-bar {
+          width: 100%;
+          margin-bottom: 10px;
+        }
+
+        .button-box,
+        .voice-box {
+          width: 100%;
+          margin-bottom: 10px;
+        }
+
+        .video-grid {
+          display: grid;
+          grid-template-columns: 1fr;
+          gap: 20px;
+          padding: 10px;
+        }
+
+        .video-preview {
+          flex-direction: column;
+        }
+
+        .sidebar {
+          display: none;
+        }
+
+        .video-info-grid {
+          grid-template-columns: 1fr;
+          text-align: center;
+        }
+
+        .thumbnail {
+          width: 100%;
+          height: auto;
+        }
+      }
+     </style>
     </head>
     <body>
       <div class="header">
