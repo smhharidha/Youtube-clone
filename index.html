@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube.com clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <style>
+  @media (max-width: 768px) {
+    .header, .left-section, .middle-section, .right-section {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .search-bar {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .button-box,
+    .voice-box {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .video-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+      padding: 10px;
+    }
+
+    .sidebar {
+      display: none;
+    }
+
+    .video-info-grid {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+
+    .thumbnail {
+      width: 100%;
+      height: auto;
+    }
+  }
+</style>
+
+    </head>
+    <body>
+      <div class="header">
+        <div class="left-section">
+          <img class="threeline-symbol" src="images/menu-icon-png-3-lines-11552739307mwa2p2dhid.png">
+          <img class="youtube-logo" src="images/youtube image.png">
+        </div>
+        <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="button-box" style="height:45px;width:40px;">
+          <img class="search-icon" src="images/search-icon-png-24.jpg" height="20" width="20">
+            <button class="voice-box" style="height:45px;width:40px;">
+              <img class="voice-icon" src="images/artboard_103-512.png">
+              </button>
+        </button>
+      </div>
+        <div class="right-section">
+          <img class="create-button" src="images/2529526.png">
+          <img class="dot-button" src="images/dot image.png">
+          <div class="bell-button-container">
+            <img class="bell-button" src="images/notification-icon-png.png">
+              <div class="bell-button-count">3</div>
+          </div>
+          
+            <img class="profile-button" src="images/channels4_profile.jpg">
+      </div>
+    </div>
+    <div class="sidebar">
+      <div class="sidebar-icons">
+        <img src="images/black-house-png-9.png">
+          <div>Home</div>
+      </div>
+      <div class="sidebar-icons">
+        <img src="images/free-youtube-shorts-logo-icon-15253-thumb.png">
+        <div>Shorts</div>
+      </div>
+      <div class="sidebar-icons">
+        <img src="images/subscription image.png">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-icons">
+        <img src="images/you image.png">
+        <div>You</div>
+      </div>
+    </div>
+      <div class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="images/hq720.jpg">
+            <div class="video-time">2:29</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="images/channels4_profile(1).jpg" height="40" width="40">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Illuminati|Aavesham|Jithu Madhavan|Fahadh Faasil|Sushin Shyam,Dabzee,Vinayak|Nazriya|Anwar Rasheed
+              </p>
+              <p class="video-author">
+                Think Music India
+              </p>
+              <p class="video-stats">
+                32M views &#183; 1 month ago
+              </p>
+            </div> 
+            </div>
+          </div>
+          <div class="video-preview">
+            <div class="thumbnail-row">
+          <img class="thumbnail" src="images/html-css-full-course-cover.png">
+          <div class="video-time">6:31:23</div>
+          </div>
+          <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="images/unnamed.jpg" height="40" width="40">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              HTML & CSS Full course-Beginner to Pro
+            </p>
+            <p class="video-author">
+              SimpleSuperDev
+            </p>
+            <p class="video-stats">
+              9.8M views &#183; 2 years ago
+            </p>
+          </div>
+          </div>
+          </div>
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="images/hq720(1).jpg">
+              <div class="video-time">2:42</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="images/channels4_profile(1).jpg" height="40" width="40">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  Manjummel Boys Trailer | Chidambaram | Soubin Shahir,Sreenath Bhasi| Sushin Shyam | Parava Films
+                </p>
+                <p class="video-author">
+                  Think Music India
+                </p>
+                <p class="video-stats">
+                  13M views &#183; 3 months ago
+                </p>
+              </div> 
+              </div>
+              </div>
+            <div class="video-preview">
+              <div class="thumbnail-row">
+            <img class="thumbnail" src="images/maxresdefault.jpg">
+            <div class="video-time">0:55</div>
+            </div>
+            <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="images/unnamed(1).jpg" height="40" width="40">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Wednesday Addams | Season 2 Announcement | Netflix
+              </p>
+              <p class="video-author">
+                Netflix
+              </p>
+              <p class="video-stats">
+                25M views &#183; 1 year ago
+              </p>
+            </div>
+            </div>
+            </div>
+            <div class="video-preview">
+              <div class="thumbnail-row">
+                <img class="thumbnail" src="images/hq720(2).jpg">
+                <div class="video-time">0:40</div>
+              </div>
+              <div class="video-info-grid">
+                <div class="channel-picture">
+                  <img class="profile-picture" src="images/channels4_profile(2).jpg" height="40" width="40">
+                </div>
+                <div class="video-info">
+                  <p class="video-title">
+                    Pandian Stores 2 | 6th to 11th May 2024 - Promo
+                  </p>
+                  <p class="video-author">
+                    Vijay Television
+                  </p>
+                  <p class="video-stats">
+                    2.9M views &#183; 11 days ago
+                  </p>
+                </div> 
+                </div>
+              </div>
+              <div class="video-preview">
+                <div class="thumbnail-row">
+              <img class="thumbnail" src="images/maxresdefault(1).jpg">
+              <div class="video-time">2:01</div>
+              </div>
+              <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="images/channels4_profile(3).jpg" height="40" width="40">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  STAR Movie Special Promo | Kavin | Elan | Yuvan Shankar Raja | SVCC | Rise East Entertainment
+                </p>
+                <p class="video-author">
+                  Sri Venkateswara Cine Chitra
+                </p>
+                <p class="video-stats">
+                  854K views &#183; 8 months ago
+                </p>
+              </div>
+              </div>
+              </div>
+              <div class="video-preview">
+                <div class="thumbnail-row">
+                  <img class="thumbnail" src="images/hq720(3).jpg">
+                  <div class="video-time">11:23</div>
+                </div>
+                <div class="video-info-grid">
+                  <div class="channel-picture">
+                    <img class="profile-picture" src="images/channels4_profile(4).jpg" height="40" width="40">
+                  </div>
+                  <div class="video-info">
+                    <p class="video-title">
+                      Sai Abhyankkar - Katchi Sera (Music Video) | Samyuktha | Ken Royson | REACTION!!
+                    </p>
+                    <p class="video-author">
+                      OUR STUPID REACTIONS
+                    </p>
+                    <p class="video-stats">
+                      153K views &#183; 1 month ago
+                    </p>
+                  </div> 
+                  </div>
+                  </div>
+                <div class="video-preview">
+                  <div class="thumbnail-row">
+                <img class="thumbnail" src="images/hq720(4).jpg">
+                <div class="video-time">24:11</div>
+                </div>
+                <div class="video-info-grid">
+                <div class="channel-picture">
+                  <img class="profile-picture" src="images/channels4_profile(5).jpg" height="40" width="40">
+                </div>
+                <div class="video-info">
+                  <p class="video-title">
+                    Psycho Girlfriend &zwj; | Nandha Gopala Krishnan | Pooja | Jayasurya | Deepak Rhaj S | 4K | Finally
+                  </p>
+                  <p class="video-author">
+                    Finally
+                  </p>
+                  <p class="video-stats">
+                    1.4M views &#183; 9 days ago
+                  </p>
+                </div>
+                </div>
+                </div>
+                <div class="video-preview">
+                  <div class="thumbnail-row">
+                <img class="thumbnail" src="images/hq720(5).jpg" height="40" width="40">
+                <div class="video-time">12:58</div>
+                </div>
+                <div class="video-info-grid">
+                <div class="channel-picture">
+                  <img class="profile-picture" src="images/channels4_profile(6).jpg" height="40" width="40">
+                </div>
+                <div class="video-info">
+                  <p class="video-title">
+                    &quot;I Miss You அப்பா&quot;😘 Nani's Cute மகள் தந்த Surprise😍 புல்லரித்து போன Nani ❤️ Awww from Crowd❤️
+                  </p>
+                  <p class="video-author">
+                    Behindwoods TV
+                  </p>
+                  <p class="video-stats">
+                    655K views &#183; 2 months ago
+                  </p>
+                </div>
+                </div>
+                </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+      <img class="thumbnail" src="images/hq720(6).jpg">
+      <div class="video-time">1:01</div>
+      </div>
+      <div class="video-info-grid">
+      <div class="channel-picture">
+        <img class="profile-picture" src="images/channels4_profile(7).jpg" height="40" width="40">
+      </div>
+      <div class="video-info">
+        <p class="video-title">
+          Mann Vaasanai - Mann Vaasanai Maaratha Title Video Song | Avika Gor | Raj TV | Polimer Entertainment
+        </p>
+        <p class="video-author">
+          Polimer Entertainment
+        </p>
+        <p class="video-stats">
+          128K views &#183; 3 years ago
+        </p>
+      </div>
+    </div>
+    </div>
+  </div>
+      
+    </body>
+</html>
