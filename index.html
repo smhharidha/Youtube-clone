@@ -11,44 +11,69 @@
     <link rel="stylesheet" href="styles/video.css">
     <link rel="stylesheet" href="styles/sidebar.css">
     <style>
-  @media (max-width: 768px) {
-    .header, .left-section, .middle-section, .right-section {
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .search-bar {
-      width: 100%;
-      margin-bottom: 10px;
-    }
-
-    .button-box,
-    .voice-box {
-      width: 100%;
-      margin-bottom: 10px;
-    }
-
-    .video-grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 20px;
-      padding: 10px;
-    }
-
-    .sidebar {
-      display: none;
-    }
-
-    .video-info-grid {
-      grid-template-columns: 1fr;
-      text-align: center;
-    }
-
-    .thumbnail {
-      width: 100%;
-      height: auto;
-    }
+ @media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
   }
+
+  .middle-section {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+  }
+
+  .search-bar {
+    width: 90%;
+    margin: 8px auto;
+  }
+
+  .button-box,
+  .voice-box {
+    width: 90%;
+    margin: 5px auto;
+  }
+
+  .right-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .video-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .video-preview {
+    width: 100%;
+  }
+
+  .thumbnail {
+    width: 100%;
+    height: auto;
+  }
+
+  .video-info-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .channel-picture {
+    margin-bottom: 10px;
+  }
+}
 </style>
 
     </head>
